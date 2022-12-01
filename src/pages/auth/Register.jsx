@@ -7,7 +7,7 @@ import { useDispatch } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 import { SET_LOGIN, SET_NAME } from "../../redux/features/auth/authSlice";
 import Loader from "../../components/loader/Loader";
-import Card from "../../components/protect/Card/Card";
+import Card from "../../components/card/Card";
 
 const initialState = {
   name: "",
